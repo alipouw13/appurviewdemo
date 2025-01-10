@@ -6,11 +6,11 @@ Governance solutions
 - Unified Catalog
 
 Security solutions: Security is integrated within the Compliance portal.
-- (Data Loss Prevention (DLP))[url][https://learn.microsoft.com/en-us/purview/dlp-learn-about-dlp]
-- (Information Barriers)[url][https://learn.microsoft.com/en-us/purview/information-barriers-solution-overview]
-- (Information Protection)[url]https://learn.microsoft.com/en-us/purview/information-protection
-- (Insider Risk Management)[url][https://learn.microsoft.com/en-us/purview/insider-risk-management-solution-overview]
-- (Privileged Access Management)[url][https://learn.microsoft.com/en-us/purview/privileged-access-management-solution-overview]
+- [Data Loss Prevention (DLP)]([url](https://learn.microsoft.com/en-us/purview/dlp-learn-about-dlp))
+- [Information Barriers]([url](https://learn.microsoft.com/en-us/purview/information-barriers-solution-overview))
+- [Information Protection]([url](https://learn.microsoft.com/en-us/purview/information-protection))
+- [Insider Risk Management]([url](https://learn.microsoft.com/en-us/purview/insider-risk-management-solution-overview))
+- [Privileged Access Management]([url](https://learn.microsoft.com/en-us/purview/privileged-access-management-solution-overview))
 
 # Product roadmap for both governance and security features in Purview.
 
