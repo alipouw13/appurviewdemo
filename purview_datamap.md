@@ -1,6 +1,5 @@
-The Data Map is the technical arm of the governance side of Purview. Here you connect to and register data sources, manage your collection structure, monitor your data assets and define classification rules.
-
 # Purpose
+The Data Map is the technical arm of the governance side of Purview. Here you connect to and register data sources, manage your collection structure, monitor your data assets and define classification rules.
 - Create an up-to-date map of your entire data estate that includes data classification and end-to-end lineage
 - Identify where sensitive data is stored in your estate
 - Create a secure environment for data consumers to find valuable data
