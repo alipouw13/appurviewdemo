@@ -1,9 +1,9 @@
 # Overview
 Data Policy is where you can configure and manage various data policies for your organization. You are able to configure and manage the following data policies:
-- Data owner policies - a set of policy statements such that when a policy is published to one or more data systems under Microsoft Purview’s governance, it's then enforced.
-- Self-service access policies -  allows the data consumer (Unified Catalog reader) to request access to data when browsing or searching for data. The asset must have Policy enforcement enabled, and the self-service access workflow must aslo be enabled.
-- DevOps policies - a special type of Microsoft Purview acess policies whereby instead of enabling customers to manage access to data systems across their entire data estate, DevOps policies grant access to database system metadata instead of user data.
-- Protection policies - enable organizations to automatically protect sensitive data across data sources
+- [Data owner policies](https://learn.microsoft.com/en-us/purview/legacy/concept-policies-data-owner) - a set of policy statements such that when a policy is published to one or more data systems under Microsoft Purview’s governance, it's then enforced.
+- [Self-service access policies](https://learn.microsoft.com/en-us/purview/legacy/concept-self-service-data-access-policy) -  allows the data consumer (Unified Catalog reader) to request access to data when browsing or searching for data. The asset must have Policy enforcement enabled, and the self-service access workflow must aslo be enabled.
+- [DevOps policies](https://learn.microsoft.com/en-us/purview/legacy/concept-policies-devops) - a special type of Microsoft Purview acess policies whereby instead of enabling customers to manage access to data systems across their entire data estate, DevOps policies grant access to database system metadata instead of user data.
+- [Protection policies](https://learn.microsoft.com/en-us/purview/how-to-create-protection-policy?tabs=azure-sources) - enable organizations to automatically protect sensitive data across data sources
 
 # Business value
 1. Simplified Governance Across Hybrid Environments - centralized management of access and data governance policies across on-premises, hybrid, and multi-cloud environments.
