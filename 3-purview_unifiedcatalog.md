@@ -1,4 +1,4 @@
-# Purpose
+# Overview
 The Unified Catalog is the business side of the governance side of Microsoft Purview. 
 - Aims to provide a platform for data governance and drive business value creation in your organization.
 - Allows you to explore and understand your data categorized by governance domains
@@ -8,8 +8,7 @@ The Unified Catalog is the business side of the governance side of Microsoft Pur
 # Business value
 Good data governance enables the entire organization to gain business value from your data in a secure manner. The Unified Catalog does so by enabling every persona of your organization to maximize the value of their data by improving discoverability, collaboration, and compliance while enabling innovation and operational efficiency in a highly regulated industry.
 
-
-The Microsoft Purview Unified Data Catalog streamlines data governance, improving collaboration, and enabling better insights by:
+The Microsoft Purview Unified Catalog streamlines data governance, improving collaboration, and enabling better insights by:
 1. Acting as a Single Source of Truth for Data Assets - consolidates metadata from diverse sources into a centralized platform, providing a consistent view of all enterprise data assets.
     - Value: Enables banking institutions to maintain a comprehensive inventory of data, **breaking down silos and ensuring consistency for decision-making and regulatory reporting.**
 2. Streamlining Regulatory Compliance - classify, tag, and organize data assets in alignment with industry regulations such as GDPR, CCPA, and BCBS 239.
