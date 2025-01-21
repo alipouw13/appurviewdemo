@@ -19,3 +19,5 @@ The Microsoft Purview Unified Catalog streamlines data governance, improving col
     - Value: Facilitates the creation of new financial products, **improved customer personalization**, and cross-functional projects to enhance business outcomes.
 5. Supports Data Democratization with Built-in Governance - ensures that data is accessible to the right people while protecting sensitive information with robust governance controls.
     - Value: Enables secure and governed access to data, **empowering teams with the information they need while minimizing risks** of data misuse or breaches.
+
+# Permissions

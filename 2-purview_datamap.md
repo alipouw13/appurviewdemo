@@ -26,3 +26,8 @@ The Data Map is the technical arm of the governance side of Purview. Here you co
     - Value: **Reduces the time spent searching for data** and **accelerates time-to-insight**, **improving operational efficiency**.
 6. Supports Data Democratization and Collaboration - the Data Map fosters secure data sharing and collaboration across departments and teams while maintaining control over sensitive data in the colleciton architecture.
     - Value: **Promotes innovation and cross-functional projects** while maintaining strong data governance.
+
+# Permissions
+Permissions in the Data Map are captured below.
+
+For each collection, your organization should consider who will require each of the 

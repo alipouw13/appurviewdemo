@@ -16,3 +16,7 @@ Data Policy is where you can configure and manage various data policies for your
     - Value: Safeguards sensitive banking data, such as personally identifiable information (PII) and transaction records, reducing the risk of reputational damage or financial loss from breaches.
 5. Enhanced Operational Efficiency - policies can be defined once and applied at scale across multiple data assets and environments, with built-in auditing and monitoring to ensure compliance.
     - Value: Reduces the administrative burden on IT and governance teams, allowing them to focus on strategic initiatives instead of manual policy management.
+
+# Permissions
+
+
