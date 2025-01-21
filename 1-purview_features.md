@@ -3,7 +3,7 @@
 Microsoft Purview is a comprehensive set of solutions that can help your organization govern, protect, and manage data, wherever it lives. All Microsoft Purview Solutions can be found in the Solutions tab in the Purview portal.
 
 # Microsoft Purview solutions catalog
-![alt](https://github.com/alipouw13/appureviewdemo/blob/main/images/purview-solutions.png)
+![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/purview-solutions.png)
 
 ## Data Governance
 Capabilities to enable seamless governance of your data to empower your organization.
