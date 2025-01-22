@@ -8,6 +8,12 @@ The Data Map is the technical arm of the governance side of Purview. Here you co
 
 ## Core concepts
 Below are core purview Data Map concepts
+- Data domains - 
+- Collections - 
+- Register a source - 
+- Scan a source - 
+- Classifications - 
+- Scan rule sets - 
 
 # Key Points
 - Register your data source at the root if it must be shared across the first level of the collection hierarchy

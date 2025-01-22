@@ -6,18 +6,16 @@ The Unified Catalog is the business side of the governance side of Microsoft Pur
 - Ability to subscribe to data products that come equipped with all the data you need and the tools to safely access it. 
 
 ## Core Concepts
-Below are core purview Unified Catalog concepts
-| Core Concept                          | Description                                                                 |
-|---------------------------------------|-----------------------------------------------------------------------------|
-| Unified Catalog                       | A centralized repository to browse, store, and manage metadata about data assets.    |
-| Governance Domains                    | |
-| Data Products                         |   |
-| Objectives and Key Results (OKRs)     |  |
-| Glossary Terms                        |  |
-| Critical Data Elements (CDEs)         |         |
-| Data Quality                          |                       |
-| Health Actions                        |  |
-| Live View                             |   |
+Below are core Purview Unified Catalog concepts
+- Unified Catalog - centralized repository to browse, store, and manage metadata about data assets.
+- Governance Domains
+- Data Products
+- Objectives and Key Results (OKRs)
+- Glossary Terms
+- Critical Data Elements (CDEs)
+- Data Quality
+- Health Actions
+- Live View
 
 # Business Value
 Good data governance enables the entire organization to gain business value from your data in a secure manner. The Unified Catalog does so by enabling every persona of your organization to maximize the value of their data by improving discoverability, collaboration, and compliance while enabling innovation and operational efficiency in a highly regulated industry.
