@@ -6,6 +6,9 @@ The Data Map is the technical arm of the governance side of Purview. Here you co
 - Generate insights about how your data is stored and used
 - Manage access to the data in your estate securely and at scale
 
+## Core concepts
+Below are core purview Data Map concepts
+
 # Key Points
 - Register your data source at the root if it must be shared across the first level of the collection hierarchy
 - Most Policy Enforcment happens at the data product level
@@ -30,4 +33,4 @@ The Data Map is the technical arm of the governance side of Purview. Here you co
 # Permissions
 Permissions in the Data Map are captured below.
 
-For each collection, your organization should consider who will require each of the 
+For each collection, your organization should consider who will require each of the defined permissions above. See the [Purview Governance Permissions doc](https://github.com/alipouw13/appurviewdemo/blob/main/0-purview_governance_permissions.md) for more informaiton and relevant links.

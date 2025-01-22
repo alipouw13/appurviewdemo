@@ -5,7 +5,10 @@ Data Policy is where you can configure and manage various data policies for your
 - [DevOps policies](https://learn.microsoft.com/en-us/purview/legacy/concept-policies-devops) - a special type of Microsoft Purview acess policies whereby instead of enabling customers to manage access to data systems across their entire data estate, DevOps policies grant access to database system metadata instead of user data.
 - [Protection policies](https://learn.microsoft.com/en-us/purview/how-to-create-protection-policy?tabs=azure-sources) - enable organizations to automatically protect sensitive data across data sources
 
-# Business value
+## Core Concepts
+
+
+# Business Value
 1. Simplified Governance Across Hybrid Environments - centralized management of access and data governance policies across on-premises, hybrid, and multi-cloud environments.
     - Value: Reduces operational complexity and ensures consistency in governance practices across all banking data sources.
 2. Automated Compliance with Regulatory Requirements - tailor policies to enforce compliance with industry regulations like GDPR, CCPA, PCI DSS, and Basel III.

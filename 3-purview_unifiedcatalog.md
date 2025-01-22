@@ -5,7 +5,21 @@ The Unified Catalog is the business side of the governance side of Microsoft Pur
 - Allows for easy search through AI powered copilot
 - Ability to subscribe to data products that come equipped with all the data you need and the tools to safely access it. 
 
-# Business value
+## Core Concepts
+Below are core purview Unified Catalog concepts
+| Core Concept                          | Description                                                                 |
+|---------------------------------------|-----------------------------------------------------------------------------|
+| Unified Catalog                       | A centralized repository to browse, store, and manage metadata about data assets.    |
+| Governance Domains                    | |
+| Data Products                         |   |
+| Objectives and Key Results (OKRs)     |  |
+| Glossary Terms                        |  |
+| Critical Data Elements (CDEs)         |         |
+| Data Quality                          |                       |
+| Health Actions                        |  |
+| Live View                             |   |
+
+# Business Value
 Good data governance enables the entire organization to gain business value from your data in a secure manner. The Unified Catalog does so by enabling every persona of your organization to maximize the value of their data by improving discoverability, collaboration, and compliance while enabling innovation and operational efficiency in a highly regulated industry.
 
 The Microsoft Purview Unified Catalog streamlines data governance, improving collaboration, and enabling better insights by:
@@ -13,7 +27,7 @@ The Microsoft Purview Unified Catalog streamlines data governance, improving col
     - Value: Enables banking institutions to maintain a comprehensive inventory of data, **breaking down silos and ensuring consistency for decision-making and regulatory reporting.**
 2. Streamlining Regulatory Compliance - classify, tag, and organize data assets in alignment with industry regulations such as GDPR, CCPA, and BCBS 239.
     - Value: **Simplifies compliance processes**, **reduces the risk of non-compliance penalties**, and provides confidence during audits and regulatory reviews.
-3. Improvign Discoverability and Usability - leverage advanced search with AI, filter, and tagging capabilities make it easy for users to find and access relevant data assets quickly.
+3. Improving Discoverability and Usability - leverage advanced search with AI, filter, and tagging capabilities make it easy for users to find and access relevant data assets quickly.
     - Value: **Enhances operational efficiency** by reducing time spent searching for data, enabling banking teams to focus on high-value activities like fraud detection and risk modeling.
 4. Fostering Collaboration and Innovation - create curated, and well-documented data assets available to authorized users, promoting collaboration between departments (e.g., compliance, risk, and analytics teams).
     - Value: Facilitates the creation of new financial products, **improved customer personalization**, and cross-functional projects to enhance business outcomes.
@@ -21,3 +35,4 @@ The Microsoft Purview Unified Catalog streamlines data governance, improving col
     - Value: Enables secure and governed access to data, **empowering teams with the information they need while minimizing risks** of data misuse or breaches.
 
 # Permissions
+
