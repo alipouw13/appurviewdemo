@@ -37,6 +37,8 @@ Below are core purview Data Map concepts
     - Value: **Promotes innovation and cross-functional projects** while maintaining strong data governance.
 
 # Permissions
-Permissions in the Data Map are captured below.
+Permissions mappings for data management roles to Purview Data Map roles are captured below. Please use this as a guide to define the roles / security groups for the data map. Keep in mind that each level of the collection hierarchy should  
+
+![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/dm-role-mapping.png)
 
 For each collection, your organization should consider who will require each of the defined permissions above. See the [Purview Governance Permissions doc](https://github.com/alipouw13/appurviewdemo/blob/main/0-purview_governance_permissions.md) for more informaiton and relevant links.

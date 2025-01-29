@@ -8,14 +8,14 @@ The Unified Catalog is the business side of the governance side of Microsoft Pur
 ## Core Concepts
 Below are core Purview Unified Catalog concepts
 - Unified Catalog - centralized repository to browse, store, and manage metadata about data assets.
-- Governance Domains
-- Data Products
-- Objectives and Key Results (OKRs)
-- Glossary Terms
-- Critical Data Elements (CDEs)
-- Data Quality
-- Health Actions
-- Live View
+- Governance Domains - 
+- Data Products - 
+- Objectives and Key Results (OKRs) - 
+- Glossary Terms - 
+- Critical Data Elements (CDEs) - 
+- Data Quality - 
+- Health Actions - 
+- Live View - 
 
 # Business Value
 Good data governance enables the entire organization to gain business value from your data in a secure manner. The Unified Catalog does so by enabling every persona of your organization to maximize the value of their data by improving discoverability, collaboration, and compliance while enabling innovation and operational efficiency in a highly regulated industry.
@@ -33,4 +33,8 @@ The Microsoft Purview Unified Catalog streamlines data governance, improving col
     - Value: Enables secure and governed access to data, **empowering teams with the information they need while minimizing risks** of data misuse or breaches.
 
 # Permissions
+Permissions mappings for data management roles to Purview Unified Catalog roles are captured below. Please use this as a guide to define the roles / security groups for the data map. Keep in mind that each level of the collection hierarchy should  
 
+![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/uc-role-mapping.png)
+
+For each governance domain, your organization should consider who will require each of the defined permissions above. See the [Purview Governance Permissions doc](https://github.com/alipouw13/appurviewdemo/blob/main/0-purview_governance_permissions.md) for more informaiton and relevant links.

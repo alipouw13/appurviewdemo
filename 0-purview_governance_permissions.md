@@ -57,4 +57,6 @@ Data management roles refer to a grouping of personas that share similar job fun
 ![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/data-management-roles.png)
 
 # Data strategy roles
-Data strategy roles are role unique to your organization. These are roles such as data engineers, IT admins, etc. The list provided below id taken from the Microsoft Cloud Analytics Framework (CAF) and should be adpted to your organizaiton.
+Data strategy roles are role unique to your organization. These are roles such as data engineers, IT admins, etc. The list provided below is based on the [Microsoft Cloud Analytics Framework (CAF)](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/organize-roles-responsibilities) and should be adpted to your organizaiton.
+
+
