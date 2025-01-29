@@ -1,6 +1,8 @@
 # Overview
 Assigning in Microsoft Purview can seem like a daunting task. This section aims to walk through the available Purview permissions in the Data Map and the Unified Catalog, map these permissions to Data Management roles and then further to Data Strategy roles specific to your organization.
 
+The Purview permissions sheet in the [reference section tis](https://github.com/alipouw13/appurviewdemo/blob/main/reference) of this repo provides an interactive look on how to begin to configure roles and permissions in Microsoft Purview.
+
 # Microsoft Purview roles
 In the Microsoft Purview Data Map and Unified Catalog, roles can be applied at the tenant-level, application-level or the domain-level.
 
