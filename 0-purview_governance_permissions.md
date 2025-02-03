@@ -54,9 +54,11 @@ Roles in the Unified Catalog applied at the tenant and catalog (application) lev
 | Data profile reader | Browse all profiling insights and can drill down the profiling results to browse the statistics in column level. |
 
 
-# Data Management roles
-Data management roles refer to a grouping of personas that share similar job functions when it comes to Microsoft Purview. Multiple data strategy roles can be grouped into a single data management role to simplify access management to Microsoft Purview. The 5 core data management roles are defined below. These are the basis for which organizations can create security groups to manage access to appropriate Domains, Collections, Governance Domains and Data Products in your Data Map and Unified Catalog.
+# Data management roles
+Data management roles refer to a grouping of personas that share similar job functions when it comes to Microsoft Purview. Multiple data strategy roles can be grouped into a single data management role to simplify access management to Microsoft Purview. The 5 core data management roles are defined below. These are the basis for which organizations can create security groups to manage access to appropriate Domains, Collections, Governance Domains and Data Products in your Data Map and Unified Catalog. 
 ![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/data-management-roles.png)
+
+_Please note that within the Governance persona, therre is a Governance Admin and a Data Steward_
 
 # Data strategy roles
 Data strategy roles are role unique to your organization. These are roles such as data engineers, IT admins, etc. The list provided below is based on the [Microsoft Cloud Analytics Framework (CAF)](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/organize-roles-responsibilities) while incorporating Fabric roles as well. The roles below should be adpted to your organization.

@@ -8,32 +8,34 @@ The Data Map is the technical arm of the governance side of Purview. Here you co
 
 ## Core concepts
 Below are core purview Data Map concepts
-- Data domains - 
-- Collections - 
-- Register a source - 
-- Scan a source - 
-- Classifications - 
-- Scan rule sets - 
+| Concept             | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| Data domains        | Logical groupings of data assets that share common policies, security requirements, and characteristics.         |
+| Collections         | Hierarchical groupings to organize data sources and assets. Groupings are generally by Business unit, gerography, environment or project/applicaiton               |
+| Register a source   | The process of connecting a data source to the Purview Data Map.            |
+| Scan a source       | The action of scanning a registered data source into the Data map to discover its metadata and further group to serve to end users in the Unified catalog.   |
+| Classifications     | Labels applied to data assets to categorize and protect sensitive data.     |
+| Scan rule sets      | Configurations that define how and how much data sources should be scanned and classified.|
 
-# Key Points
-- Register your data source at the root if it must be shared across the first level of the collection hierarchy
-- Most Policy Enforcment happens at the data product level
+# Key points
+- Register your data source at the root domain if it must be shared across the first level of the collection hierarchy
 - Policies are created for governance domains and for data products
-- Automatic policy enforcement is in preview for Azure SQL DBs, Blob Storage accounts and ADLS Gen2 accounts
-- Governance domains tend to align to Fabric domains but its not necessarily a 1:1
+- Most Policy Enforcment happens at the data product level
+- Automatic policy enforcement on data sources is in preview for Azure SQL DBs, Blob Storage accounts, and ADLS Gen2 accounts
+- Governance domains tend to align to Fabric domains but it is not necessarily a 1:1 mapping
 
 # Business Value
 1. **No cost to register and scan data assets**.
     - Only govererned data assets are billed in the [new Purview PAYGO model](https://learn.microsoft.com/en-us/purview/ms-purview-dg-pricing-announcement) enabling your organization to create a foudation in your Purview Data Map without paying a dime.
-3. Centralized Data Discovery and Visibility - unified view of all data assets across on-premises, hybrid, and multi-cloud environments.
+3. **Centralized Data Discovery and Visibility** - unified view of all data assets across on-premises, hybrid, and multi-cloud environments.
     - Value: Banking institutions can break down data silos, enabling efficient discovery of data assets to support customer insights, regulatory reporting, and decision-making.
-3. Enhanced Compliance and Risk Management - automatically scan and classify sensitive information, including PII and financial data, aligning with regulatory frameworks like GDPR, CCPA, and Basel III.
+3. **Enhanced Compliance and Risk Management** - automatically scan and classify sensitive information, including PII and financial data, aligning with regulatory frameworks like GDPR, CCPA, and Basel III.
     - Value: Banks reduce compliance risk and demonstrate strong governance practices to regulators, auditors, and customers.
-4. Improved Data Lineage and Auditability - comprehensive data lineage capabilities allow organizations to track the origin, transformation, and flow of data through their systems.
+4. **Improved Data Lineage and Auditability** - comprehensive data lineage capabilities allow organizations to track the origin, transformation, and flow of data through their systems.
    - Value: Enhanced auditability simplifies root cause analysis for discrepancies and accelerates response times during audits or investigations.
-5. Accelerated Data Access and Insights - automated data classification and tagging enable data stewards and analysts to quickly identify and access the most relevant data for use cases like fraud detection, credit scoring, and portfolio analysis.
+5. **Accelerated Data Access and Insights** - automated data classification and tagging enable data stewards and analysts to quickly identify and access the most relevant data for use cases like fraud detection, credit scoring, and portfolio analysis.
     - Value: **Reduces the time spent searching for data** and **accelerates time-to-insight**, **improving operational efficiency**.
-6. Supports Data Democratization and Collaboration - the Data Map fosters secure data sharing and collaboration across departments and teams while maintaining control over sensitive data in the colleciton architecture.
+6. **Supports Data Democratization and Collaboration** - the Data Map fosters secure data sharing and collaboration across departments and teams while maintaining control over sensitive data in the colleciton architecture.
     - Value: **Promotes innovation and cross-functional projects** while maintaining strong data governance.
 
 # Permissions

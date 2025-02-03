@@ -32,5 +32,3 @@ Solutions to secure data across it's lifecycle
 
 ## Other
   - Settings - configure portal and solution settings, including unified catalog access, DLP settings and Information protection settings
-
-# Permissions

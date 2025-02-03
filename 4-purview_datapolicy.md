@@ -2,11 +2,19 @@
 Data Policy is where you can configure and manage various data policies for your organization. You are able to configure and manage the following data policies:
 - [Data owner policies](https://learn.microsoft.com/en-us/purview/legacy/concept-policies-data-owner) - a set of policy statements such that when a policy is published to one or more data systems under Microsoft Purview’s governance, it's then enforced.
 - [Self-service access policies](https://learn.microsoft.com/en-us/purview/legacy/concept-self-service-data-access-policy) -  allows the data consumer (Unified Catalog reader) to request access to data when browsing or searching for data. The asset must have Policy enforcement enabled, and the self-service access workflow must aslo be enabled.
-- [DevOps policies](https://learn.microsoft.com/en-us/purview/legacy/concept-policies-devops) - a special type of Microsoft Purview acess policies whereby instead of enabling customers to manage access to data systems across their entire data estate, DevOps policies grant access to database system metadata instead of user data.
+- [DevOps policies](https://learn.microsoft.com/en-us/purview/legacy/concept-policies-devops) - a type of Microsoft Purview acess policies that grant access to database system metadata instead of user data.
 - [Protection policies](https://learn.microsoft.com/en-us/purview/how-to-create-protection-policy?tabs=azure-sources) - enable organizations to automatically protect sensitive data across data sources
 
 ## Core Concepts
-
+Below are the data policy core concepts.
+- Data owner policies are in preview
+- Self-service access policies are in preview
+- Hierarchical enforcement of policies (data access and DevOps) applies - if a policy is applied at the parent level, all children will inherit this policy
+- DevOps policies can only be created after the data source is registered in Microsoft Purview with the Data policy enforcement option turned on
+- DevOps policies only grant access. They don't deny access.
+- Self-service data access policy is only supported when [Data policy enforcement is enabled](https://learn.microsoft.com/en-us/purview/legacy/how-to-enable-data-policy-enforcement#prerequisites)
+- Protection policies are limited ot Azure SQL Databases, Azure blob storage, ADLS Gen2 and Microsoft Fabric.
+- Protection policies require one of the Microsoft 365 E5 licenses
 
 # Business Value
 1. Simplified Governance Across Hybrid Environments - centralized management of access and data governance policies across on-premises, hybrid, and multi-cloud environments.
@@ -21,5 +29,10 @@ Data Policy is where you can configure and manage various data policies for your
     - Value: Reduces the administrative burden on IT and governance teams, allowing them to focus on strategic initiatives instead of manual policy management.
 
 # Permissions
-
-
+| **Role**                                                                 | **Applicable Data Policy Concept** | **Details**                                                              |
+|-----------------------------------------------------------------------|------------------------------------|-----------------------------------------------------| 
+| Policy author                                 | All  | Must have Policy Admin permissions at the domain level. Can create, update, and delete DevOps and Data Owner policies. Can delete self-service access policies.                                            |
+| **IAM Owner or both IAM contributor and IAM user access admin**        | All                        | Required on the data source on which data policy enforcement is applied.                            |
+| **Workflow admin**                                               | Self-service access policies                       | Must be a Workflow admin to map a self-service data access workflow to a collection.                         |
+| **Data Source Admin**                                              | All                        | Required to enable data policy enforcement.                              |
+| **[Information protection](https://learn.microsoft.com/en-us/purview/how-to-create-protection-policy-azure-sources#users-and-permissions) role**           | Protection policies       | Required to configure protection policies.           |
