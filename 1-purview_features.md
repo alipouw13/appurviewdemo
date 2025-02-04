@@ -15,11 +15,11 @@ Capabilities to enable seamless governance of your data to empower your organiza
 
 ## Risk & Compliance
 Capabilities for managing critical risks and regulatory requirements
-- [Communication compliance](https://learn.microsoft.com/en-us/purview/purview-compliance#detect-and-act-on-inappropriate-and-sensitive-messages-with-communication-compliance) - Detect and act on inappropriate and sensitive messages with communication compliance.
-- [Data lifecycle management](https://learn.microsoft.com/en-us/purview/purview-compliance#manage-your-data-lifecycle) - maintain compliance by retaining and deleting content across Exchange, SharePoint, OneDrive, Microsoft 365 Groups, Teams, and Viva Engage
-- [Records management](https://learn.microsoft.com/en-us/purview/purview-compliance#manage-business-legal-or-regulatory-record-keeping-requirements-with-records-management) - manage its legal obligations, provides the ability to demonstrate compliance with regulations, and increases efficiency with regular disposition of items that are no longer required to be retained, no longer of value, or no longer required for business purposes.
-- [Audit (Premium) and Audit (Standard)](https://learn.microsoft.com/en-us/purview/purview-compliance#log-and-search-for-audited-activities-in-sharepoint-and-onedrive-with-audit-premium-or-audit-standard) - effectively respond to security events, forensic investigations, internal investigations, and compliance obligations. 
-- [eDiscovery (preview)](https://learn.microsoft.com/en-us/purview/purview-compliance#identify-and-manage-data-for-legal-cases-with-ediscovery-preview) - Identify, preserve and export data in response to legal discovery requests and eDiscovery cases.
+- **[Communication compliance](https://learn.microsoft.com/en-us/purview/purview-compliance#detect-and-act-on-inappropriate-and-sensitive-messages-with-communication-compliance)** - Detect and act on inappropriate and sensitive messages with communication compliance.
+- **[Data lifecycle management](https://learn.microsoft.com/en-us/purview/purview-compliance#manage-your-data-lifecycle)** - maintain compliance by retaining and deleting content across Exchange, SharePoint, OneDrive, Microsoft 365 Groups, Teams, and Viva Engage
+- **[Records management](https://learn.microsoft.com/en-us/purview/purview-compliance#manage-business-legal-or-regulatory-record-keeping-requirements-with-records-management)** - manage its legal obligations, provides the ability to demonstrate compliance with regulations, and increases efficiency with regular disposition of items that are no longer required to be retained, no longer of value, or no longer required for business purposes.
+- **[Audit (Premium) and Audit (Standard)](https://learn.microsoft.com/en-us/purview/purview-compliance#log-and-search-for-audited-activities-in-sharepoint-and-onedrive-with-audit-premium-or-audit-standard)** - effectively respond to security events, forensic investigations, internal investigations, and compliance obligations. 
+- **[eDiscovery (preview)](https://learn.microsoft.com/en-us/purview/purview-compliance#identify-and-manage-data-for-legal-cases-with-ediscovery-preview)** - Identify, preserve and export data in response to legal discovery requests and eDiscovery cases.
 
 ## Data Security
 Solutions to secure data across it's lifecycle

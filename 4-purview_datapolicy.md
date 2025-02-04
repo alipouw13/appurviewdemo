@@ -17,15 +17,15 @@ Below are the data policy core concepts.
 - Protection policies require one of the Microsoft 365 E5 licenses
 
 # Business Value
-1. Simplified Governance Across Hybrid Environments - centralized management of access and data governance policies across on-premises, hybrid, and multi-cloud environments.
+1. **Simplified Governance Across Hybrid Environments**- centralized management of access and data governance policies across on-premises, hybrid, and multi-cloud environments.
     - Value: Reduces operational complexity and ensures consistency in governance practices across all banking data sources.
-2. Automated Compliance with Regulatory Requirements - tailor policies to enforce compliance with industry regulations like GDPR, CCPA, PCI DSS, and Basel III.
+2. **Automated Compliance with Regulatory Requirements** - tailor policies to enforce compliance with industry regulations like GDPR, CCPA, PCI DSS, and Basel III.
     - Value: Minimizes the risk of regulatory violations, reduces manual compliance efforts, and ensures adherence to evolving regulatory requirements.
-3. Granular Data Access - Enables fine-grained access controls, allowing organizations to define who can access specific data assets and how they can be used.
+3. **Granular Data Access** - Enables fine-grained access controls, allowing organizations to define who can access specific data assets and how they can be used.
     - Value: Protects sensitive financial and customer data, mitigates the risk of data breaches, and ensures that only authorized personnel can access critical information.
-4. Enhanced Data Security and Risk Mitigation - by applying consistent policies, Data Policy feature ensures data security and prevents unauthorized use or sharing.
+4. **Enhanced Data Security and Risk Mitigation** - by applying consistent policies, Data Policy feature ensures data security and prevents unauthorized use or sharing.
     - Value: Safeguards sensitive banking data, such as personally identifiable information (PII) and transaction records, reducing the risk of reputational damage or financial loss from breaches.
-5. Enhanced Operational Efficiency - policies can be defined once and applied at scale across multiple data assets and environments, with built-in auditing and monitoring to ensure compliance.
+5. **Enhanced Operational Efficiency** - policies can be defined once and applied at scale across multiple data assets and environments, with built-in auditing and monitoring to ensure compliance.
     - Value: Reduces the administrative burden on IT and governance teams, allowing them to focus on strategic initiatives instead of manual policy management.
 
 # Permissions
