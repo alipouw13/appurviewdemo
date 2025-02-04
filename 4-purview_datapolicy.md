@@ -31,7 +31,7 @@ Below are the data policy core concepts.
 # Permissions
 | **Role**                                                                 | **Applicable Data Policy Concept** | **Details**                                                              |
 |-----------------------------------------------------------------------|------------------------------------|-----------------------------------------------------| 
-| Policy author                                 | All  | Must have Policy Admin permissions at the domain level. Can create, update, and delete DevOps and Data Owner policies. Can delete self-service access policies.                                            |
+| **Policy author**                               | All  | Must have Policy Admin permissions at the domain level. Can create, update, and delete DevOps and Data Owner policies. Can delete self-service access policies.                                            |
 | **IAM Owner or both IAM contributor and IAM user access admin**        | All                        | Required on the data source on which data policy enforcement is applied.                            |
 | **Workflow admin**                                               | Self-service access policies                       | Must be a Workflow admin to map a self-service data access workflow to a collection.                         |
 | **Data Source Admin**                                              | All                        | Required to enable data policy enforcement.                              |

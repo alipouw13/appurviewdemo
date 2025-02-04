@@ -7,11 +7,11 @@ Microsoft Purview is a comprehensive set of solutions that can help your organiz
 ## Data Governance
 Capabilities to enable seamless governance of your data to empower your organization.
 
-- [Data Map]((https://learn.microsoft.com/en-us/purview/concept-domains)) -  manage data source connections that populate metadata in the catalog.
-- [Unified Catalog](https://learn.microsoft.com/en-us/purview/unified-catalog) - find and curate data across your organization with this searchable inventory of data assets and metadata.
-- [Workflows](https://learn.microsoft.com/en-us/purview/legacy/concept-workflow) - create repeatable business processes that can be used to automate and orchestrate operations on data entities when specified operations occur in your unified catalog, including data access policy process.
-- [Data Lifecycle Management](https://learn.microsoft.com/en-us/purview/manage-data-governance) - manage your content lifecycle so you can keep what you need and delete what you don't.
-- [Data Policy](https://learn.microsoft.com/en-us/purview/legacy/how-to-enable-data-policy-enforcement) - manage data access, DevOps policies, self-service access and protection policies in a central location.
+- **[Data Map](https://learn.microsoft.com/en-us/purview/concept-domains)** -  manage data source connections that populate metadata in the catalog.
+- **[Unified Catalog](https://learn.microsoft.com/en-us/purview/unified-catalog)** - find and curate data across your organization with this searchable inventory of data assets and metadata.
+- **[Workflows](https://learn.microsoft.com/en-us/purview/legacy/concept-workflow)** - create repeatable business processes that can be used to automate and orchestrate operations on data entities when specified operations occur in your unified catalog, including data access policy process.
+- **[Data Lifecycle Management](https://learn.microsoft.com/en-us/purview/manage-data-governance)** - manage your content lifecycle so you can keep what you need and delete what you don't.
+- **[Data Policy](https://learn.microsoft.com/en-us/purview/legacy/how-to-enable-data-policy-enforcement)** - manage data access, DevOps policies, self-service access and protection policies in a central location.
 
 ## Risk & Compliance
 Capabilities for managing critical risks and regulatory requirements
@@ -24,11 +24,11 @@ Capabilities for managing critical risks and regulatory requirements
 ## Data Security
 Solutions to secure data across it's lifecycle
 
-- [Data Loss Prevention (DLP)](https://learn.microsoft.com/en-us/purview/dlp-learn-about-dlp) - protect sensitive content as its used and shared throughout your organization (cloud, on-prem, on devices)
-- [Information Barriers](https://learn.microsoft.com/en-us/purview/information-barriers-solution-overview) - define policies to allow or prevent communications between groups of users in Microsoft Teams
-- [Information Protection](https://learn.microsoft.com/en-us/purview/information-protection) - discover, classify and protect sensitive and business critical content across its lifecycle
-- [Insider Risk Management](https://learn.microsoft.com/en-us/purview/insider-risk-management-solution-overview) - detect risky user activity to help quickly identify and take action on insier risks
-- [DSPM for AI](https://learn.microsoft.com/en-us/purview/ai-microsoft-purview) - discover and secure your organization's AI data and activity within Microsoft CoPilot experiences and other gen AI apps in one central location
+- **[Data Loss Prevention (DLP)](https://learn.microsoft.com/en-us/purview/dlp-learn-about-dlp)** - protect sensitive content as its used and shared throughout your organization (cloud, on-prem, on devices)
+- **[Information Barriers](https://learn.microsoft.com/en-us/purview/information-barriers-solution-overview)** - define policies to allow or prevent communications between groups of users in Microsoft Teams
+- **[Information Protection](https://learn.microsoft.com/en-us/purview/information-protection)** - discover, classify and protect sensitive and business critical content across its lifecycle
+- **[Insider Risk Management](https://learn.microsoft.com/en-us/purview/insider-risk-management-solution-overview)** - detect risky user activity to help quickly identify and take action on insier risks
+- **[DSPM for AI](https://learn.microsoft.com/en-us/purview/ai-microsoft-purview)** - discover and secure your organization's AI data and activity within Microsoft CoPilot experiences and other gen AI apps in one central location
 
 ## Other
-  - Settings - configure portal and solution settings, including unified catalog access, DLP settings and Information protection settings
+  - **Settings** - configure portal and solution settings, including unified catalog access, DLP settings and Information protection settings
