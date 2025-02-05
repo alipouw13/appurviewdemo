@@ -1,11 +1,14 @@
 # Overview
-The Unified Catalog is the business side of the governance side of Microsoft Purview. 
+
+The Unified Catalog is the business side of the governance side of Microsoft Purview.
+
 - Aims to provide a platform for data governance and drive business value creation in your organization.
 - Allows you to explore and understand your data categorized by governance domains
 - Allows for easy search through AI powered copilot
-- Ability to subscribe to data products that come equipped with all the data you need and the tools to safely access it. 
+- Ability to subscribe to data products that come equipped with all the data you need and the tools to safely access it.
 
 ## Core Concepts
+
 Below are core Purview Unified Catalog concepts.
 
 | Concept                        | Definition | Purpose | Elements | Permissions |
@@ -20,11 +23,12 @@ Below are core Purview Unified Catalog concepts.
 | [Health Actions](https://learn.microsoft.com/en-us/purview/data-estate-health-actions), Create and run a new or suggested rule or run an [available rule](https://learn.microsoft.com/en-us/purview/concepts-data-quality-rules#available-data-quality-rules) - input criteria will change depending on the rule   | Provide concrete steps to take to maintain or improve the quality and governance of data assets. | Provide actions to raises your health score and promote an overall more useable and discoverable  Catalog | See [here](https://learn.microsoft.com/en-us/purview/data-estate-health-actions#available-actions) for available actions | Read: Data quality reader, Data quality metadata reader <br> Read and edit: Data quality steward |
 | [Live View](https://learn.microsoft.com/en-us/purview/live-view)                   | Provides automatic access to view certain data assets' metadata (name, properties, schema, lineage) within the Unified Catalog without having to register and scan the data source as either a data reader or owner. Limited to [select sources](https://learn.microsoft.com/en-us/purview/live-view#what-resources-have-live-view-available). | Allow immediate access to end users to jump-start your organization's data discoverability and governance journey  | Requires Purview access (MSI recommended) to the resources. See [here](https://learn.microsoft.com/en-us/purview/live-view#live-view-permissions) for details. |
 
-
 # Business Value
+
 Good data governance enables the entire organization to gain business value from your data in a secure manner. The Unified Catalog does so by enabling every persona of your organization to **maximize the value of their data by improving discoverability, collaboration, and compliance** while enabling **innovation and operational efficiency** in a highly regulated industry.
 
 The Microsoft Purview Unified Catalog streamlines data governance, improving collaboration, and enabling better insights by:
+
 1. **Acting as a Single Source of Truth for Data Assets** - consolidates metadata from diverse sources into a centralized platform, providing a consistent view of all enterprise data assets.
     - Value: Enables banking institutions to maintain a comprehensive inventory of data, **breaking down silos and ensuring consistency for decision-making and regulatory reporting.**
 2. **Streamlining Regulatory Compliance** - classify, tag, and organize data assets in alignment with industry regulations such as GDPR, CCPA, and BCBS 239.
@@ -37,6 +41,7 @@ The Microsoft Purview Unified Catalog streamlines data governance, improving col
     - Value: Enables secure and governed access to data, **empowering teams with the information they need while minimizing risks** of data misuse or breaches.
 
 # Permissions
+
 Permissions mappings for data management roles to Purview Unified Catalog roles are captured below. Please use this as a guide to define the roles / security groups for the data map. Keep in mind that each level of the collection hierarchy should  
 
 ![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/uc-role-mapping.png)

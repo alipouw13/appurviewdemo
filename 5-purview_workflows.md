@@ -1,5 +1,7 @@
 # Overview
+
 Microsoft Purview Workflows are automated, and repeatable business processes that users can create within Microsoft Purview to validate and orchestrate CUD (create, update, delete) operations on their data entities. Enabling these processes allows organizations to track changes, enforce policy compliance, and ensure quality data across their data landscape. There are 3 types of workflows available:
+
 - Data Catalog
 - Governance
 - Privacy
@@ -7,21 +9,25 @@ Microsoft Purview Workflows are automated, and repeatable business processes tha
 ![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/workflows.png)
 
 ## Data Catalog Workflows
+
 Workflows for managing the Unified Catalog glossary terms and asset attributes. See below for the types of data catalog workflows:
 
 ![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/data-catalog-workflow-types.png)
 
 ## Governance Workflows
+
 Workflows for data policy and access governance. See below for the types of governance workflows:
 
 ![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/governance-workflow-types.png)
 
 ## Privacy Workflows
+
 Workflows for Subject Rights Request of exports and deletion. See below for the types of privacy workflows:
 
 ![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/privacy-workflow-types.png)
 
 # Business Value
+
 1. **Streamlined Data Governance Processes** - automated data catalog tasks such as updating asset attributes, and governance tasks, such as approving data access requests, ensuring consistent and efficient processes.
     - Value: Reduces manual effort and accelerates governance actions, enabling organizations to focus on higher-value activities while maintaining compliance.
 2. **Improved Collaboration Across Teams** - enable structured collaboration between data stewards, compliance officers, data analysts and data owners by defining clear responsibilities and workflows for tasks.
@@ -34,4 +40,5 @@ Workflows for Subject Rights Request of exports and deletion. See below for the 
     - Value: Reduces delays in critical decisions, such as granting data access for time-sensitive analyses, enabling faster responses to market or regulatory demands.
 
 # Permissions
+
 - Workflow Administrator

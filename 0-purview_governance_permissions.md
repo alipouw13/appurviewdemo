@@ -1,14 +1,17 @@
 # Overview
+
 Assigning in Microsoft Purview can seem like a daunting task. This section aims to walk through the available Purview permissions in the Data Map and the Unified Catalog, map these permissions to Data Management roles and then further to Data Strategy roles specific to your organization.
 
 The Purview permissions sheet in the [reference section tis](https://github.com/alipouw13/appurviewdemo/blob/main/reference) of this repo provides an interactive look on how to begin to configure roles and permissions in Microsoft Purview.
 
 # Microsoft Purview roles
+
 In the Microsoft Purview Data Map and Unified Catalog, roles can be applied at the tenant-level, application-level or the domain-level.
 
 See [here](https://learn.microsoft.com/en-us/purview/governance-roles-permissions#what-data-catalog-permissions-do-i-need) for a list of governance roles.
 
 ## Tenant-level roles
+
 Roles applied at the organizational (tenant) level provide admin permissions to the Data Map and the Unified Catalog. These toles are configured by the Purview Admin in the _Roles and scopes > Role Groups_ section of _Settings_ in the Purview Portal (seen below).
 ![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/roles-and-scopes.png)
 
@@ -18,8 +21,8 @@ Roles applied at the organizational (tenant) level provide admin permissions to 
 | Data source administrators | Manage data sources and data scans in the Microsoft Purview Data Map | Read and write access to data sources | Tenant (Data Map) |
 | Data governance administrator | Grants access to data governance roles within Microsoft Purview | Read and write access over governance domain roles | Tenant (Unified Catalog) |
 
-
 ## Data Map roles
+
 Data map roles provide access to Domains and Collections to manage assets, sources, and other artifacts into a hierarchy for discoverability. The core roles for domains and collections are listed below:
 
 | Role | Permissions |
@@ -33,8 +36,8 @@ Data map roles provide access to Domains and Collections to manage assets, sourc
 | Policy author | (domain-level only) Ability to view, update, and delete Microsoft Purview policies through the Data policy app within Microsoft Purview. |
 | Workflow administrator | Provides access the workflow authoring page in the Microsoft Purview governance portal, and publish workflows on collections where they have access permissions. Requires at least Data reader permission on a collection to be able to access the Purview governance portal.|
 
-
 ## Unified Catalog roles
+
 Roles in the Unified Catalog applied at the tenant and catalog (application) level, provide a higher level of access to users. Roles applied at the domain-level provide access within a specific governance domain, and should be granted to data experts and business users to read and manage objects within the governance domain.
 
 | Role | Permissions |
@@ -53,14 +56,15 @@ Roles in the Unified Catalog applied at the tenant and catalog (application) lev
 | Data profile steward | Run data profiling jobs and have access to browse profiling insight details. This role can also browse through all data quality insights and can monitor profiling jobs. This role can’t create rules and can’t run data quality scanning. This is a subrole, to perform this role the individual also needs Governance domain reader and Data Catalog reader roles. |
 | Data profile reader | Browse all profiling insights and can drill down the profiling results to browse the statistics in column level. |
 
-
 # Data management roles
-Data management roles refer to a grouping of personas that share similar job functions when it comes to Microsoft Purview. Multiple data strategy roles can be grouped into a single data management role to simplify access management to Microsoft Purview. The 5 core data management roles are defined below. These are the basis for which organizations can create security groups to manage access to appropriate Domains, Collections, Governance Domains and Data Products in your Data Map and Unified Catalog. 
+
+Data management roles refer to a grouping of personas that share similar job functions when it comes to Microsoft Purview. Multiple data strategy roles can be grouped into a single data management role to simplify access management to Microsoft Purview. The 5 core data management roles are defined below. These are the basis for which organizations can create security groups to manage access to appropriate Domains, Collections, Governance Domains and Data Products in your Data Map and Unified Catalog.
 ![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/data-management-roles.png)
 
 _Please note that within the Governance persona, there is a Governance Admin and a Data Steward_
 
 # Data strategy roles
+
 Data strategy roles are role unique to your organization. These are roles such as data engineers, IT admins, etc. The list provided below is based on the [Microsoft Cloud Analytics Framework (CAF)](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/organize-roles-responsibilities) while incorporating Fabric roles as well. The roles below should be adpted to your organization.
 
 | Role | Responsibilities | Data Management Persona |

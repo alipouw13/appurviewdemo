@@ -1,5 +1,7 @@
 # Overview
+
 The Data Map is the technical arm of the governance side of Purview. Here you connect to and register data sources, manage your collection structure, monitor your data assets and define classification rules.
+
 - Create an up-to-date map of your entire data estate that includes data classification and end-to-end lineage
 - Identify where sensitive data is stored in your estate
 - Create a secure environment for data consumers to find valuable data
@@ -7,7 +9,9 @@ The Data Map is the technical arm of the governance side of Purview. Here you co
 - Manage access to the data in your estate securely and at scale
 
 ## Core concepts
+
 Below are core purview Data Map concepts
+
 | Concept             | Description                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
 | Data domains        | Logical groupings of data assets that share common policies, security requirements, and characteristics.         |
@@ -18,6 +22,7 @@ Below are core purview Data Map concepts
 | Scan rule sets      | Configurations that define how and how much data sources should be scanned and classified.|
 
 # Key points
+
 - Register your data source at the root domain if it must be shared across the first level of the collection hierarchy
 - Policies are created for governance domains and for data products
 - Most policy enforcement happens at the data product level
@@ -25,6 +30,7 @@ Below are core purview Data Map concepts
 - Governance domains tend to align to Fabric domains but it is not necessarily a 1:1 mapping
 
 # Business Value
+
 1. **No cost to register and scan data assets**.
     - Only governed data assets are billed in the [new Purview PAYGO model](https://learn.microsoft.com/en-us/purview/ms-purview-dg-pricing-announcement) enabling your organization to create a foundation in your Purview Data Map without paying a dime.
 3. **Centralized Data Discovery and Visibility** - unified view of all data assets across on-premises, hybrid, and multi-cloud environments.
@@ -39,6 +45,7 @@ Below are core purview Data Map concepts
     - Value: **Promotes innovation and cross-functional projects** while maintaining strong data governance.
 
 # Permissions
+
 Permissions mappings for data management roles to Purview Data Map roles are captured below. Please use this as a guide to define the roles / security groups for the data map. Keep in mind that each level of the collection hierarchy should  
 
 ![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/dm-role-mapping.png)

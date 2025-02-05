@@ -1,12 +1,16 @@
 # Overview
+
 Data Policy is where you can configure and manage various data policies for your organization. You are able to configure and manage the following data policies:
+
 - [Data owner policies](https://learn.microsoft.com/en-us/purview/legacy/concept-policies-data-owner) - a set of policy statements such that when a policy is published to one or more data systems under Microsoft Purview’s governance, it's then enforced.
 - [Self-service access policies](https://learn.microsoft.com/en-us/purview/legacy/concept-self-service-data-access-policy) -  allows the data consumer (Unified Catalog reader) to request access to data when browsing or searching for data. The asset must have Policy enforcement enabled, and the self-service access workflow must also be enabled.
 - [DevOps policies](https://learn.microsoft.com/en-us/purview/legacy/concept-policies-devops) - a type of Microsoft Purview access policies that grant access to database system metadata instead of user data.
 - [Protection policies](https://learn.microsoft.com/en-us/purview/how-to-create-protection-policy?tabs=azure-sources) - enable organizations to automatically protect sensitive data across data sources
 
 ## Core Concepts
+
 Below are the data policy core concepts.
+
 - Data owner policies are in preview
 - Self-service access policies are in preview
 - Hierarchical enforcement of policies (data access and DevOps) applies - if a policy is applied at the parent level, all children will inherit this policy
@@ -17,6 +21,7 @@ Below are the data policy core concepts.
 - Protection policies require one of the Microsoft 365 E5 licenses
 
 # Business Value
+
 1. **Simplified Governance Across Hybrid Environments**- centralized management of access and data governance policies across on-premises, hybrid, and multi-cloud environments.
     - Value: Reduces operational complexity and ensures consistency in governance practices across all banking data sources.
 2. **Automated Compliance with Regulatory Requirements** - tailor policies to enforce compliance with industry regulations like GDPR, CCPA, PCI DSS, and Basel III.
@@ -29,8 +34,9 @@ Below are the data policy core concepts.
     - Value: Reduces the administrative burden on IT and governance teams, allowing them to focus on strategic initiatives instead of manual policy management.
 
 # Permissions
+
 | **Role**                                                                 | **Applicable Data Policy Concept** | **Details**                                                              |
-|-----------------------------------------------------------------------|------------------------------------|-----------------------------------------------------| 
+|-----------------------------------------------------------------------|------------------------------------|-----------------------------------------------------|
 | **Policy author**                               | All  | Must have Policy Admin permissions at the domain level. Can create, update, and delete DevOps and Data Owner policies. Can delete self-service access policies.                                            |
 | **IAM Owner or both IAM contributor and IAM user access admin**        | All                        | Required on the data source on which data policy enforcement is applied.                            |
 | **Workflow admin**                                               | Self-service access policies                       | Must be a Workflow admin to map a self-service data access workflow to a collection.                         |
