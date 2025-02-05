@@ -1,5 +1,5 @@
 # Introduction
-This repository provides context on te following components of Microsoft Purview:
+This repository provides context on the following components of Microsoft Purview:
 
 0. **[Purview permissions](https://github.com/alipouw13/appurviewdemo/blob/main/0-purview_governance_permissions.md)**
     - Tenant-level roles
@@ -7,7 +7,7 @@ This repository provides context on te following components of Microsoft Purview
     - Unified catalog roles
     
 1. **[Microsoft Purview Solutions](https://github.com/alipouw13/appurviewdemo/blob/main/1-purview_features.md)**
-   - Core solutions of Micrsoft Purview: Governance, Security and Compliance
+   - Core solutions of Microsoft Purview: Governance, Security and Compliance
 
 3. **[Microsoft Purview Data Map](https://github.com/alipouw13/appurviewdemo/blob/main/2-purview_datamap.md)**
     - Collection hierarchy
@@ -21,7 +21,7 @@ This repository provides context on te following components of Microsoft Purview
 
 5. **[Data Policy](https://github.com/alipouw13/appurviewdemo/blob/main/4-purview_datapolicy.md)**
     - Data owner policies
-    - Self-service acccess policies
+    - Self-service access policies
     - DevOps policies
     - Protection policies
 

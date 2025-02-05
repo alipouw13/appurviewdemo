@@ -1,10 +1,10 @@
 # Overview
-As of January 6th, 2025 Microsoft Purview has adopted a PAYGO pricing model. This means that you only pay for governed and managed data assets. Governed data assets 
+As of January 6th, 2025 Microsoft Purview has adopted a PAYGO pricing model. This means that you only pay for governed and managed data assets. Governed data assets are assets that are linked to governance concepts such as data products and critical data elements (CDEs). Managed assets are billed when a customer runs data quality and health management actions on their governed data estate.
 
 A sample excel sheet for calculating both Unified Catalog and Master Data Management billing is available in the reference section of this repository [here](https://github.com/alipouw13/appurviewdemo/blob/main/reference).
 
 # Unified Catalog Billing
-Data assets (eg: tables, views, AI models, semantic models, etc.) that are linked to governance concepts in the product, such as data products and critical data elements, are counted as governed assets. See [here](https://github.com/alipouw13/appurviewdemo/blob/main/3-purview_unifiedcatalog.md) more information here on the Unified Catalog core concepts, including data products and CDEs.
+Data assets (eg: tables, views, AI models, semantic models, etc.) that are linked to governance concepts, such as data products and CDEs, are counted as governed assets. See [here](https://github.com/alipouw13/appurviewdemo/blob/main/3-purview_unifiedcatalog.md) more information here on the Unified Catalog core concepts, including data products and CDEs.
 
 Key points:
 - Data assets scanned into the data map are scanned at no cost. Scanning costs are subsumed by Microsoft Purview.
