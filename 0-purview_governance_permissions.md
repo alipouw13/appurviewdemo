@@ -2,7 +2,7 @@
 
 Assigning in Microsoft Purview can seem like a daunting task. This section aims to walk through the available Purview permissions in the Data Map and the Unified Catalog, map these permissions to Data Management roles and then further to Data Strategy roles specific to your organization.
 
-The Purview permissions sheet in the [reference section tis](https://github.com/alipouw13/appurviewdemo/blob/main/reference) of this repo provides an interactive look on how to begin to configure roles and permissions in Microsoft Purview.
+The Purview permissions sheet in the [reference this section](https://github.com/alipouw13/appurviewdemo/blob/main/reference) of this repo provides an interactive look on how to begin to configure roles and permissions in Microsoft Purview.
 
 # Microsoft Purview roles
 
@@ -36,6 +36,10 @@ Data map roles provide access to Domains and Collections to manage assets, sourc
 | Policy author | (domain-level only) Ability to view, update, and delete Microsoft Purview policies through the Data policy app within Microsoft Purview. |
 | Workflow administrator | Provides access the workflow authoring page in the Microsoft Purview governance portal, and publish workflows on collections where they have access permissions. Requires at least Data reader permission on a collection to be able to access the Purview governance portal.|
 
+Update data map roles in the Data map > Roles assignments section of each domain and colleciton.
+
+![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/datamap-roles.png)
+
 ## Unified Catalog roles
 
 Roles in the Unified Catalog applied at the tenant and catalog (application) level, provide a higher level of access to users. Roles applied at the domain-level provide access within a specific governance domain, and should be granted to data experts and business users to read and manage objects within the governance domain.
@@ -55,6 +59,12 @@ Roles in the Unified Catalog applied at the tenant and catalog (application) lev
 | Data quality metadata reader | Browse data quality insights (except profiling results column level insight), data quality rule definition, and rule level scores. This role won't have access to error records and can't run profiling and DQ scanning job. This is a subrole, to perform this role the individual also needs Governance domain reader and Data Catalog reader roles. |
 | Data profile steward | Run data profiling jobs and have access to browse profiling insight details. This role can also browse through all data quality insights and can monitor profiling jobs. This role can’t create rules and can’t run data quality scanning. This is a subrole, to perform this role the individual also needs Governance domain reader and Data Catalog reader roles. |
 | Data profile reader | Browse all profiling insights and can drill down the profiling results to browse the statistics in column level. |
+
+Unified catalog roles are assigned at the Governance domain level and at the Settings > Solution Settings > Unified Catalog > Roles and permissions level. See below for specifics.
+
+![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/uc-roles-settings.png)
+
+![alt](https://github.com/alipouw13/appurviewdemo/blob/main/images/uc-roles-catalog.png)
 
 # Data management roles
 
