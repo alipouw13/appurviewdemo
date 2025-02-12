@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to the Microsoft Purview Reference repository! This project aims to help organizations understand Microsoft Purview solution basics. Whether you’re looking to enhance data governance, improve regulatory compliance, or streamline data access, this repository provides a single view for best practices, and how-tos to get you started quickly.
+Welcome to the Microsoft Purview Reference repository! This project aims to help organizations **understand Microsoft Purview solution basics**. Whether you’re looking to enhance data governance, improve regulatory compliance, or streamline data access, this repository provides a **single view for best practices, and how-tos to get you started quickly.**
 
 Microsoft Purview is a comprehensive platform covering governance, security, compliance, and data lifecycle management. By bringing these capabilities under one umbrella, Purview enables organizations in heavily regulated industries — such as banking, insurance, and capital markets — to more easily manage sensitive information, comply with complex regulatory requirements, and maintain robust security postures.
 
