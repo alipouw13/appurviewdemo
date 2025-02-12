@@ -1,4 +1,9 @@
 # Introduction
+Welcome to the Microsoft Purview Reference repository! This project aims to help organizations understand Microsoft Purview solution basics. Whether you’re looking to enhance data governance, improve regulatory compliance, or streamline data access, this repository provides a single view for best practices, and how-tos to get you started quickly.
+
+Microsoft Purview is a comprehensive platform covering governance, security, compliance, and data lifecycle management. By bringing these capabilities under one umbrella, Purview enables organizations in heavily regulated industries —such as banking, insurance, and capital markets— to more easily manage sensitive information, comply with complex regulatory requirements, and maintain robust security postures.
+
+# Table of Contents
 
 This repository provides context on the following components of Microsoft Purview:
 
@@ -36,7 +41,10 @@ This repository provides context on the following components of Microsoft Purvie
 
 8. **[Risk & Compliance](https://github.com/alipouw13/appurviewdemo/blob/main/7-purview_riskandcompliance.md)**
     - Audit
-
 9. **[Pricing](https://github.com/alipouw13/appurviewdemo/blob/main/8-pricing.md)**
     - Unified Catalog Billing
     - Master Data Management Billing
+
+# Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request if you have suggestions, bug fixes, or would like to add more use cases and demos for Microsoft Purview.
