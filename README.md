@@ -26,17 +26,17 @@ This repository provides context on the following components of Microsoft Purvie
     - Data products
     - Roles and role mapping
 
-5. **[Data Policy](https://github.com/alipouw13/appurviewdemo/blob/main/4-purview_datapolicy.md)**
-    - Data owner policies
-    - Self-service access policies
-    - DevOps policies
-    - Protection policies
+5. **[Data Product Access Policies](https://github.com/alipouw13/appurviewdemo/blob/main/4-purview_data_access.md)**
+    - Unified Catalog data product access workflows
+    - Tiered approval processes (manager, privacy reviewer, approvers, access providers)
+    - Inherited policies from governance domains, glossary terms, and critical data elements
+    - Attestations and compliance tracking
 
 6. **[Workflows](https://github.com/alipouw13/appurviewdemo/blob/main/5-purview_workflows.md)**
-    - Data governance workflows - for data policy, access governance, and loss prevention. Scoped at the collection level.
-    - Data catalog workflows - manage approvals for CUD (create, update, delete) operations for glossary terms. Scoped at the glossary level.
+    - Data Product Access Workflows - govern access requests to data products in the Unified Catalog
+    - Publication Workflows - manage approval processes for publishing data products and governance domains
 
-7. **[Security](https://github.com/alipouw13/appurviewdemo/blob/main/6-security.md)**
+7. **[Security](https://github.com/alipouw13/appurviewdemo/blob/main/6-purview_security.md)**
     - Information protection
     - Compliance manager
 

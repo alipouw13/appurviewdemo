@@ -11,10 +11,8 @@ Microsoft Purview is a comprehensive set of solutions that can help your organiz
 Capabilities to enable seamless governance of your data to empower your organization.
 
 - **[Data Map](https://learn.microsoft.com/en-us/purview/concept-domains)** -  manage data source connections that populate metadata in the catalog.
-- **[Unified Catalog](https://learn.microsoft.com/en-us/purview/unified-catalog)** - find and curate data across your organization with this searchable inventory of data assets and metadata.
-- **[Workflows](https://learn.microsoft.com/en-us/purview/legacy/concept-workflow)** - create repeatable business processes that can be used to automate and orchestrate operations on data entities when specified operations occur in your unified catalog, including data access policy process.
+- **[Unified Catalog](https://learn.microsoft.com/en-us/purview/unified-catalog)** - find and curate data across your organization with this searchable inventory of data assets and metadata. Includes workflows for data product access requests and publication approvals.
 - **[Data Lifecycle Management](https://learn.microsoft.com/en-us/purview/manage-data-governance)** - manage your content lifecycle so you can keep what you need and delete what you don't.
-- **[Data Policy](https://learn.microsoft.com/en-us/purview/legacy/how-to-enable-data-policy-enforcement)** - manage data access, DevOps policies, self-service access and protection policies in a central location.
 
 ## Risk & Compliance
 
